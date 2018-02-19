@@ -2,17 +2,17 @@
 #todo recreate new api keys when do that
 # if Rails.env == 'production'
 # 	Rails.configuration.stripe = {
-# 		:publishable_key => 'pk_live_Mott3u7ZlK34xlYDayFYSTp5',
-# 		:secret_key      => 'sk_live_0pH3Sr5SqkbAxagCuK65j8PQ'
+# 		:publishable_key => 'pk_live_',
+# 		:secret_key      => 'sk_live_'
 # 	}
 # else
 # 	Rails.configuration.stripe = {
-# 		:publishable_key => 'pk_test_qJbYadi6trFs3qkd6oiH5sm9',
-# 		:secret_key      => 'sk_test_pYCseHS0BGCNJwHTIs22uuKq'
+# 		:publishable_key => 'pk_test_',
+# 		:secret_key      => 'sk_test_'
 # 	}
 	# Rails.configuration.stripe = {
-	# 	:publishable_key => 'pk_live_Mott3u7ZlK34xlYDayFYSTp5',
-	# 	:secret_key      => 'sk_live_0pH3Sr5SqkbAxagCuK65j8PQ'
+	# 	:publishable_key => 'pk_live_',
+	# 	:secret_key      => 'sk_live_'
 	# }
 # end
 
