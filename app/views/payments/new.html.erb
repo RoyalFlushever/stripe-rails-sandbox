@@ -16,8 +16,8 @@
 	</div>
 	
   <script>
-  	var stripe = Stripe('<%= Rails.configuration.stripe[:publishable_key] %>');
 		$(document).ready(function(){
+	  	var stripe = Stripe('<%= Rails.configuration.stripe[:publishable_key] %>');
 			var elements = stripe.elements();
 
 			// Custom styling can be passed to options when creating an Element.
