@@ -23,6 +23,8 @@ Things you may want to cover:
 
 * ...
 
+heroku config:set PUBLISHABLE_KEY=pk_test_qJbYadi6trFs3qkd6oiH5sm9 SECRET_KEY=sk_test_pYCseHS0BGCNJwHTIs22uuKq
+
 
 Referece URL: 
 
