@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  resources :payments, only: [:new, :create]
+  get 'payments-thanks', to: 'payments#thanks', as: 'payments_thanks'
+
   resources :posts
   resources :charges, only: [:new, :create]
   get 'thanks', to: 'charges#thanks', as: 'thanks'
